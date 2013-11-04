@@ -4277,6 +4277,12 @@ public final class Settings {
          * @hide
          */
         public static final String ADB_NOTIFY = "adb_notify";
+        
+         /**
+         * The TCP/IP port to run ADB on, or -1 for USB
+         * @hide
+         */
+        public static final String ADB_PORT = "adb_port";       
 
         /**
          * The hostname for this device
@@ -5726,6 +5732,7 @@ public final class Settings {
                 "camera_double_tap_power_gesture_disabled";
 
         /**
+
          * This are the settings to be backed up.
          *
          * NOTE: Settings are backed up and restored in the order they appear
