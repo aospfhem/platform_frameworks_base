@@ -262,6 +262,10 @@ public interface MetricsConstants {
     public static final int TUNER_DEMO_MODE_ON = 236;
     public static final int TUNER_BATTERY_PERCENTAGE = 237;
     public static final int FUELGAUGE_INACTIVE_APPS = 238;
+    
+    // Noob
+    public static final int NOOB_SETTINGS = 239;
+    public static final int GESTURE_SETTINGS = 240;
 
     // These constants must match those in the analytic pipeline, do not edit.
     // Add temporary values to the top of MetricsLogger instead.
