@@ -215,7 +215,7 @@ public class QSTileView extends ViewGroup {
     public void init(OnClickListener clickPrimary, OnClickListener clickSecondary, OnLongClickListener clickLong) {
         mClickPrimary = clickPrimary;
         mClickSecondary = clickSecondary;
-        mLongClick = clickLong;
+        mClickLong = clickLong;
     }
 
     protected View createIcon() {
